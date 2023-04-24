@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ThrowKeywordDemo {
-	static void validateAge(int age) throws AgeValidationExcption{
+	static void validateAge(int age) throws AgeValidationException{
 		if(age>=18) {
 			System.out.println("Eligible to Vote");
 		}
@@ -21,7 +21,7 @@ public class ThrowKeywordDemo {
         catch(InputMismatchException e) {
         	System.out.println("Please give corrct input!!!");
         }
-		catch(AgeValidationExcption e) {
+		catch(AgeValidationException e) {
 			System.out.println(e.getMessage());
 		}
 	}
