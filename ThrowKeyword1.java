@@ -22,7 +22,7 @@ public class ThrowKeyword1 {
 		    checkNum(num);
 			}
         catch(InputMismatchException e) {
-        	System.out.println("Please give corrct input!!!");
+        	System.out.println("Please give correct input!!!");
         }
 		catch(NumDivisibleException e) {
 			System.out.println(e.getMessage());
